@@ -113,6 +113,32 @@
           .join("")}`;
       }
 
+      function enforceLegendFivePerRow(chart) {
+        const perRow = 5;
+        const nextItemWidth = Math.min(
+          170,
+          Math.max(130, Math.floor((chart.plotWidth - 40) / perRow)),
+        );
+        const nextLegendWidth = nextItemWidth * perRow;
+        const current = chart.legend.options.itemWidth;
+        const currentLegendWidth = chart.legend.options.width;
+        if (
+          current !== nextItemWidth ||
+          currentLegendWidth !== nextLegendWidth
+        ) {
+          chart.update(
+            {
+              legend: {
+                itemWidth: nextItemWidth,
+                width: nextLegendWidth,
+              },
+            },
+            false,
+          );
+          chart.redraw(false);
+        }
+      }
+
       async function ensureHighchartsLoaded() {
         if (window.Highcharts) {
           return;
@@ -228,7 +254,7 @@
             },
           },
           title: {
-            text: "Eviction Filing Rate by City",
+            text: "Eviction Filing Rates by City",
             align: "center",
             style: {
               fontFamily: "DINPro-Bold, sans-serif",
@@ -245,6 +271,11 @@
           xAxis: {
             categories: monthYearLabels,
             tickmarkPlacement: "on",
+            min: 0,
+            minPadding: 0,
+            maxPadding: 0,
+            startOnTick: false,
+            endOnTick: false,
             title: {
               text: "Tip: Hover over a city line or its legend label to isolate that city.",
               margin: 14,
@@ -261,6 +292,8 @@
             },
           },
           yAxis: {
+            lineWidth: 1,
+            lineColor: "#666666",
             title: {
               text: null,
               style: {
@@ -279,7 +312,7 @@
             align: "center",
             verticalAlign: "bottom",
             alignColumns: false,
-            itemDistance: 14,
+            itemDistance: 12,
             itemStyle: {
               fontFamily: "DINPro-Medium, sans-serif",
             },
@@ -343,6 +376,7 @@
                 },
                 chartOptions: {
                   legend: {
+                    itemWidth: null,
                     layout: "horizontal",
                     align: "center",
                     verticalAlign: "bottom",
@@ -351,6 +385,11 @@
               },
             ],
           },
+        }, function () {
+          enforceLegendFivePerRow(this);
+          Highcharts.addEvent(this, "redraw", function () {
+            enforceLegendFivePerRow(this);
+          });
         });
       }
 
