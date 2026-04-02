@@ -222,7 +222,7 @@
           chart: {
             type: "line",
             backgroundColor: "#f9f9f9",
-            spacingBottom: 44,
+            spacingBottom: 28,
             style: {
               fontFamily: "DINPro-Medium, sans-serif",
             },
@@ -232,7 +232,7 @@
             align: "center",
             style: {
               fontFamily: "DINPro-Bold, sans-serif",
-              fontSize: "22px",
+              fontSize: "20px",
             },
           },
           subtitle: {
@@ -245,6 +245,15 @@
           xAxis: {
             categories: monthYearLabels,
             tickmarkPlacement: "on",
+            title: {
+              text: "Tip: Hover over a city line or its legend label to isolate that city.",
+              margin: 14,
+              style: {
+                fontFamily: "DINPro-Medium, sans-serif",
+                fontSize: "12px",
+                color: "#555555",
+              },
+            },
             labels: {
               style: {
                 fontFamily: "DINPro-Medium, sans-serif",
@@ -259,7 +268,7 @@
               },
             },
             labels: {
-              format: "{value:.2f}%",
+              format: "{value:.1f}%",
               style: {
                 fontFamily: "DINPro-Medium, sans-serif",
               },
@@ -317,7 +326,7 @@
             position: {
               align: "left",
               x: 10,
-              y: 0,
+              y: -8,
             },
             style: {
               cursor: "default",
