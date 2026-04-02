@@ -282,6 +282,12 @@
             maxPadding: 0,
             startOnTick: false,
             endOnTick: false,
+            crosshair: {
+              width: 1,
+              color: "#8d8d8d",
+              dashStyle: "Dot",
+              zIndex: 4,
+            },
             title: {
               text: "Tip: Hover over a city line or its legend label to isolate that city.",
               margin: 14,
@@ -334,10 +340,19 @@
           },
           plotOptions: {
             series: {
-              stickyTracking: false,
-              findNearestPointBy: "xy",
+              stickyTracking: true,
+              // Honor hovered x-position first, then resolve nearest series point.
+              findNearestPointBy: "x",
+              // Large snap radius so a point is always selected within the plot area.
+              snap: 1000,
               marker: {
                 enabled: false,
+                symbol: "circle",
+                states: {
+                  hover: {
+                    enabled: true,
+                  },
+                },
               },
               label: {
                 enabled: true,
