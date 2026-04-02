@@ -120,17 +120,23 @@
           Math.max(130, Math.floor((chart.plotWidth - 40) / perRow)),
         );
         const nextLegendWidth = nextItemWidth * perRow;
+        const plotCenterX = chart.plotLeft + chart.plotWidth / 2;
+        const chartCenterX = chart.chartWidth / 2;
+        const nextLegendX = Math.round(plotCenterX - chartCenterX);
         const current = chart.legend.options.itemWidth;
         const currentLegendWidth = chart.legend.options.width;
+        const currentLegendX = chart.legend.options.x || 0;
         if (
           current !== nextItemWidth ||
-          currentLegendWidth !== nextLegendWidth
+          currentLegendWidth !== nextLegendWidth ||
+          currentLegendX !== nextLegendX
         ) {
           chart.update(
             {
               legend: {
                 itemWidth: nextItemWidth,
                 width: nextLegendWidth,
+                x: nextLegendX,
               },
             },
             false,
