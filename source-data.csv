@@ -1,0 +1,721 @@
+﻿city,month-year,filings,renter_occ_HUs,filing_rate
+Atlanta,Jan-20,14106,567999,2.48%
+Atlanta,Feb-20,13222,567999,2.33%
+Atlanta,Mar-20,8255,567999,1.45%
+Atlanta,Apr-20,1112,567999,0.20%
+Atlanta,May-20,1071,567999,0.19%
+Atlanta,Jun-20,2002,567999,0.35%
+Atlanta,Jul-20,2096,567999,0.37%
+Atlanta,Aug-20,3942,567999,0.69%
+Atlanta,Sep-20,6700,567999,1.18%
+Atlanta,Oct-20,6634,567999,1.17%
+Atlanta,Nov-20,7492,567999,1.32%
+Atlanta,Dec-20,7741,567999,1.36%
+Atlanta,Jan-21,7741,567999,1.36%
+Atlanta,Feb-21,6793,567999,1.20%
+Atlanta,Mar-21,6954,567999,1.22%
+Atlanta,Apr-21,5915,567999,1.04%
+Atlanta,May-21,5697,567999,1.00%
+Atlanta,Jun-21,6966,567999,1.23%
+Atlanta,Jul-21,7633,567999,1.34%
+Atlanta,Aug-21,8414,567999,1.48%
+Atlanta,Sep-21,10056,567999,1.77%
+Atlanta,Oct-21,10360,567999,1.82%
+Atlanta,Nov-21,9308,567999,1.64%
+Atlanta,Dec-21,9509,567999,1.67%
+Atlanta,Jan-22,11702,578489,2.02%
+Atlanta,Feb-22,10443,578489,1.81%
+Atlanta,Mar-22,10304,578489,1.78%
+Atlanta,Apr-22,9818,578489,1.70%
+Atlanta,May-22,11463,578489,1.98%
+Atlanta,Jun-22,11326,578489,1.96%
+Atlanta,Jul-22,12657,578489,2.19%
+Atlanta,Aug-22,13749,578489,2.38%
+Atlanta,Sep-22,13187,578489,2.28%
+Atlanta,Oct-22,13681,578489,2.36%
+Atlanta,Nov-22,11883,578489,2.05%
+Atlanta,Dec-22,12184,578489,2.11%
+Atlanta,Jan-23,14591,572679,2.55%
+Atlanta,Feb-23,13261,572679,2.32%
+Atlanta,Mar-23,11879,572679,2.07%
+Atlanta,Apr-23,12034,572679,2.10%
+Atlanta,May-23,12135,572679,2.12%
+Atlanta,Jun-23,12553,572679,2.19%
+Atlanta,Jul-23,14169,572679,2.47%
+Atlanta,Aug-23,13575,572679,2.37%
+Atlanta,Sep-23,12822,572679,2.24%
+Atlanta,Oct-23,13514,572679,2.36%
+Atlanta,Nov-23,12250,572679,2.14%
+Atlanta,Dec-23,12514,572679,2.19%
+Atlanta,Jan-24,13635,592742,2.30%
+Atlanta,Feb-24,11715,592742,1.98%
+Atlanta,Mar-24,10964,592742,1.85%
+Atlanta,Apr-24,11545,592742,1.95%
+Atlanta,May-24,12167,592742,2.05%
+Atlanta,Jun-24,13066,592742,2.20%
+Atlanta,Jul-24,12145,592742,2.05%
+Atlanta,Aug-24,12593,592742,2.12%
+Atlanta,Sep-24,12283,592742,2.07%
+Atlanta,Oct-24,12075,592742,2.04%
+Atlanta,Nov-24,11034,592742,1.86%
+Atlanta,Dec-24,11693,592742,1.97%
+Atlanta,Jan-25,13445,592742,2.27%
+Atlanta,Feb-25,12659,592742,2.14%
+Atlanta,Mar-25,10129,592742,1.71%
+Atlanta,Apr-25,10595,592742,1.79%
+Atlanta,May-25,10625,592742,1.79%
+Atlanta,Jun-25,13344,592742,2.25%
+Atlanta,Jul-25,12663,592742,2.14%
+Atlanta,Aug-25,11892,592742,2.01%
+Atlanta,Sep-25,12297,592742,2.07%
+Atlanta,Oct-25,13303,592742,2.24%
+Atlanta,Nov-25,10986,592742,1.85%
+Atlanta,Dec-25,12392,592742,2.09%
+Cincinnati,Jan-20,1143,143075,0.80%
+Cincinnati,Feb-20,887,143075,0.62%
+Cincinnati,Mar-20,527,143075,0.37%
+Cincinnati,Apr-20,239,143075,0.17%
+Cincinnati,May-20,328,143075,0.23%
+Cincinnati,Jun-20,379,143075,0.26%
+Cincinnati,Jul-20,533,143075,0.37%
+Cincinnati,Aug-20,736,143075,0.51%
+Cincinnati,Sep-20,777,143075,0.54%
+Cincinnati,Oct-20,698,143075,0.49%
+Cincinnati,Nov-20,709,143075,0.50%
+Cincinnati,Dec-20,873,143075,0.61%
+Cincinnati,Jan-21,760,143075,0.53%
+Cincinnati,Feb-21,662,143075,0.46%
+Cincinnati,Mar-21,673,143075,0.47%
+Cincinnati,Apr-21,707,143075,0.49%
+Cincinnati,May-21,690,143075,0.48%
+Cincinnati,Jun-21,898,143075,0.63%
+Cincinnati,Jul-21,920,143075,0.64%
+Cincinnati,Aug-21,865,143075,0.60%
+Cincinnati,Sep-21,980,143075,0.68%
+Cincinnati,Oct-21,934,143075,0.65%
+Cincinnati,Nov-21,866,143075,0.61%
+Cincinnati,Dec-21,960,143075,0.67%
+Cincinnati,Jan-22,1038,141429,0.73%
+Cincinnati,Feb-22,848,141429,0.60%
+Cincinnati,Mar-22,1000,141429,0.71%
+Cincinnati,Apr-22,805,141429,0.57%
+Cincinnati,May-22,974,141429,0.69%
+Cincinnati,Jun-22,1182,141429,0.84%
+Cincinnati,Jul-22,1182,141429,0.84%
+Cincinnati,Aug-22,1260,141429,0.89%
+Cincinnati,Sep-22,1238,141429,0.88%
+Cincinnati,Oct-22,1166,141429,0.82%
+Cincinnati,Nov-22,1054,141429,0.75%
+Cincinnati,Dec-22,1310,141429,0.93%
+Cincinnati,Jan-23,972,151115,0.64%
+Cincinnati,Feb-23,1115,151115,0.74%
+Cincinnati,Mar-23,862,151115,0.57%
+Cincinnati,Apr-23,843,151115,0.56%
+Cincinnati,May-23,942,151115,0.62%
+Cincinnati,Jun-23,1189,151115,0.79%
+Cincinnati,Jul-23,1048,151115,0.69%
+Cincinnati,Aug-23,1406,151115,0.93%
+Cincinnati,Sep-23,1093,151115,0.72%
+Cincinnati,Oct-23,1165,151115,0.77%
+Cincinnati,Nov-23,1000,151115,0.66%
+Cincinnati,Dec-23,1155,151115,0.76%
+Cincinnati,Jan-24,1079,145902,0.74%
+Cincinnati,Feb-24,1280,145902,0.88%
+Cincinnati,Mar-24,889,145902,0.61%
+Cincinnati,Apr-24,1039,145902,0.71%
+Cincinnati,May-24,1283,145902,0.88%
+Cincinnati,Jun-24,1224,145902,0.84%
+Cincinnati,Jul-24,1203,145902,0.82%
+Cincinnati,Aug-24,1135,145902,0.78%
+Cincinnati,Sep-24,1125,145902,0.77%
+Cincinnati,Oct-24,1210,145902,0.83%
+Cincinnati,Nov-24,950,145902,0.65%
+Cincinnati,Dec-24,1143,145902,0.78%
+Cincinnati,Jan-25,1118,145902,0.77%
+Cincinnati,Feb-25,1069,145902,0.73%
+Cincinnati,Mar-25,913,145902,0.63%
+Cincinnati,Apr-25,1020,145902,0.70%
+Cincinnati,May-25,1040,145902,0.71%
+Cincinnati,Jun-25,916,145902,0.63%
+Cincinnati,Jul-25,1345,145902,0.92%
+Cincinnati,Aug-25,1057,145902,0.72%
+Cincinnati,Sep-25,1072,145902,0.73%
+Cincinnati,Oct-25,985,145902,0.68%
+Cincinnati,Nov-25,983,145902,0.67%
+Cincinnati,Dec-25,1086,145902,0.74%
+Houston,Jan-20,6599,832215,0.79%
+Houston,Feb-20,5781,832215,0.69%
+Houston,Mar-20,3193,832215,0.38%
+Houston,Apr-20,619,832215,0.07%
+Houston,May-20,1215,832215,0.15%
+Houston,Jun-20,2483,832215,0.30%
+Houston,Jul-20,2251,832215,0.27%
+Houston,Aug-20,2391,832215,0.29%
+Houston,Sep-20,2032,832215,0.24%
+Houston,Oct-20,2173,832215,0.26%
+Houston,Nov-20,2702,832215,0.32%
+Houston,Dec-20,3197,832215,0.38%
+Houston,Jan-21,2831,832215,0.34%
+Houston,Feb-21,1991,832215,0.24%
+Houston,Mar-21,2961,832215,0.36%
+Houston,Apr-21,2266,832215,0.27%
+Houston,May-21,2230,832215,0.27%
+Houston,Jun-21,2512,832215,0.30%
+Houston,Jul-21,2756,832215,0.33%
+Houston,Aug-21,3141,832215,0.38%
+Houston,Sep-21,4172,832215,0.50%
+Houston,Oct-21,4779,832215,0.57%
+Houston,Nov-21,4307,832215,0.52%
+Houston,Dec-21,4250,832215,0.51%
+Houston,Jan-22,6326,867652,0.73%
+Houston,Feb-22,7068,867652,0.81%
+Houston,Mar-22,6769,867652,0.78%
+Houston,Apr-22,5657,867652,0.65%
+Houston,May-22,6652,867652,0.77%
+Houston,Jun-22,7246,867652,0.84%
+Houston,Jul-22,7644,867652,0.88%
+Houston,Aug-22,7749,867652,0.89%
+Houston,Sep-22,7299,867652,0.84%
+Houston,Oct-22,7030,867652,0.81%
+Houston,Nov-22,6155,867652,0.71%
+Houston,Dec-22,6557,867652,0.76%
+Houston,Jan-23,7668,848172,0.90%
+Houston,Feb-23,6484,848172,0.76%
+Houston,Mar-23,6634,848172,0.78%
+Houston,Apr-23,6065,848172,0.72%
+Houston,May-23,6933,848172,0.82%
+Houston,Jun-23,7274,848172,0.86%
+Houston,Jul-23,7323,848172,0.86%
+Houston,Aug-23,7986,848172,0.94%
+Houston,Sep-23,7177,848172,0.85%
+Houston,Oct-23,7478,848172,0.88%
+Houston,Nov-23,6555,848172,0.77%
+Houston,Dec-23,6385,848172,0.75%
+Houston,Jan-24,7928,878183,0.90%
+Houston,Feb-24,7249,878183,0.83%
+Houston,Mar-24,5477,878183,0.62%
+Houston,Apr-24,5966,878183,0.68%
+Houston,May-24,6514,878183,0.74%
+Houston,Jun-24,6918,878183,0.79%
+Houston,Jul-24,6569,878183,0.75%
+Houston,Aug-24,7164,878183,0.82%
+Houston,Sep-24,6813,878183,0.78%
+Houston,Oct-24,5471,878183,0.62%
+Houston,Nov-24,5655,878183,0.64%
+Houston,Dec-24,6282,878183,0.72%
+Houston,Jan-25,7215,878183,0.82%
+Houston,Feb-25,6551,878183,0.75%
+Houston,Mar-25,5760,878183,0.66%
+Houston,Apr-25,5437,878183,0.62%
+Houston,May-25,6378,878183,0.73%
+Houston,Jun-25,6873,878183,0.78%
+Houston,Jul-25,7105,878183,0.81%
+Houston,Aug-25,6821,878183,0.78%
+Houston,Sep-25,6722,878183,0.77%
+Houston,Oct-25,6512,878183,0.74%
+Houston,Nov-25,5774,878183,0.66%
+Houston,Dec-25,6144,878183,0.70%
+Jacksonville,Jan-20,1278,166485,0.77%
+Jacksonville,Feb-20,946,166485,0.57%
+Jacksonville,Mar-20,633,166485,0.38%
+Jacksonville,Apr-20,43,166485,0.03%
+Jacksonville,May-20,32,166485,0.02%
+Jacksonville,Jun-20,57,166485,0.03%
+Jacksonville,Jul-20,57,166485,0.03%
+Jacksonville,Aug-20,839,166485,0.50%
+Jacksonville,Sep-20,938,166485,0.56%
+Jacksonville,Oct-20,962,166485,0.58%
+Jacksonville,Nov-20,845,166485,0.51%
+Jacksonville,Dec-20,1039,166485,0.62%
+Jacksonville,Jan-21,940,166485,0.56%
+Jacksonville,Feb-21,694,166485,0.42%
+Jacksonville,Mar-21,709,166485,0.43%
+Jacksonville,Apr-21,451,166485,0.27%
+Jacksonville,May-21,460,166485,0.28%
+Jacksonville,Jun-21,651,166485,0.39%
+Jacksonville,Jul-21,829,166485,0.50%
+Jacksonville,Aug-21,731,166485,0.44%
+Jacksonville,Sep-21,1006,166485,0.60%
+Jacksonville,Oct-21,822,166485,0.49%
+Jacksonville,Nov-21,657,166485,0.39%
+Jacksonville,Dec-21,646,166485,0.39%
+Jacksonville,Jan-22,848,174923,0.48%
+Jacksonville,Feb-22,749,174923,0.43%
+Jacksonville,Mar-22,990,174923,0.57%
+Jacksonville,Apr-22,919,174923,0.53%
+Jacksonville,May-22,981,174923,0.56%
+Jacksonville,Jun-22,1301,174923,0.74%
+Jacksonville,Jul-22,1374,174923,0.79%
+Jacksonville,Aug-22,1575,174923,0.90%
+Jacksonville,Sep-22,1269,174923,0.73%
+Jacksonville,Oct-22,1382,174923,0.79%
+Jacksonville,Nov-22,1248,174923,0.71%
+Jacksonville,Dec-22,1315,174923,0.75%
+Jacksonville,Jan-23,1282,177265,0.72%
+Jacksonville,Feb-23,1502,177265,0.85%
+Jacksonville,Mar-23,1261,177265,0.71%
+Jacksonville,Apr-23,999,177265,0.56%
+Jacksonville,May-23,1220,177265,0.69%
+Jacksonville,Jun-23,1350,177265,0.76%
+Jacksonville,Jul-23,1183,177265,0.67%
+Jacksonville,Aug-23,1344,177265,0.76%
+Jacksonville,Sep-23,1270,177265,0.72%
+Jacksonville,Oct-23,1360,177265,0.77%
+Jacksonville,Nov-23,1097,177265,0.62%
+Jacksonville,Dec-23,1132,177265,0.64%
+Jacksonville,Jan-24,1344,179062,0.75%
+Jacksonville,Feb-24,1250,179062,0.70%
+Jacksonville,Mar-24,951,179062,0.53%
+Jacksonville,Apr-24,993,179062,0.55%
+Jacksonville,May-24,1194,179062,0.67%
+Jacksonville,Jun-24,1118,179062,0.62%
+Jacksonville,Jul-24,1296,179062,0.72%
+Jacksonville,Aug-24,1237,179062,0.69%
+Jacksonville,Sep-24,1168,179062,0.65%
+Jacksonville,Oct-24,1161,179062,0.65%
+Jacksonville,Nov-24,901,179062,0.50%
+Jacksonville,Dec-24,1025,179062,0.57%
+Jacksonville,Jan-25,1475,179062,0.82%
+Jacksonville,Feb-25,1262,179062,0.70%
+Jacksonville,Mar-25,1072,179062,0.60%
+Jacksonville,Apr-25,1008,179062,0.56%
+Jacksonville,May-25,1143,179062,0.64%
+Jacksonville,Jun-25,1047,179062,0.58%
+Jacksonville,Jul-25,1280,179062,0.71%
+Jacksonville,Aug-25,1364,179062,0.76%
+Jacksonville,Sep-25,1335,179062,0.75%
+Jacksonville,Oct-25,1355,179062,0.76%
+Jacksonville,Nov-25,1004,179062,0.56%
+Jacksonville,Dec-25,1269,179062,0.71%
+Milwaukee,Jan-20,1316,193302,0.68%
+Milwaukee,Feb-20,1064,193302,0.55%
+Milwaukee,Mar-20,430,193302,0.22%
+Milwaukee,Apr-20,15,193302,0.01%
+Milwaukee,May-20,66,193302,0.03%
+Milwaukee,Jun-20,1460,193302,0.76%
+Milwaukee,Jul-20,1364,193302,0.71%
+Milwaukee,Aug-20,847,193302,0.44%
+Milwaukee,Sep-20,509,193302,0.26%
+Milwaukee,Oct-20,632,193302,0.33%
+Milwaukee,Nov-20,523,193302,0.27%
+Milwaukee,Dec-20,692,193302,0.36%
+Milwaukee,Jan-21,586,193302,0.30%
+Milwaukee,Feb-21,578,193302,0.30%
+Milwaukee,Mar-21,564,193302,0.29%
+Milwaukee,Apr-21,451,193302,0.23%
+Milwaukee,May-21,482,193302,0.25%
+Milwaukee,Jun-21,592,193302,0.31%
+Milwaukee,Jul-21,618,193302,0.32%
+Milwaukee,Aug-21,626,193302,0.32%
+Milwaukee,Sep-21,895,193302,0.46%
+Milwaukee,Oct-21,961,193302,0.50%
+Milwaukee,Nov-21,766,193302,0.40%
+Milwaukee,Dec-21,965,193302,0.50%
+Milwaukee,Jan-22,1342,197485,0.68%
+Milwaukee,Feb-22,1489,197485,0.75%
+Milwaukee,Mar-22,1106,197485,0.56%
+Milwaukee,Apr-22,1047,197485,0.53%
+Milwaukee,May-22,1138,197485,0.58%
+Milwaukee,Jun-22,1171,197485,0.59%
+Milwaukee,Jul-22,1019,197485,0.52%
+Milwaukee,Aug-22,1237,197485,0.63%
+Milwaukee,Sep-22,1121,197485,0.57%
+Milwaukee,Oct-22,1081,197485,0.55%
+Milwaukee,Nov-22,1028,197485,0.52%
+Milwaukee,Dec-22,1023,197485,0.52%
+Milwaukee,Jan-23,1328,188131,0.71%
+Milwaukee,Feb-23,858,188131,0.46%
+Milwaukee,Mar-23,1000,188131,0.53%
+Milwaukee,Apr-23,964,188131,0.51%
+Milwaukee,May-23,1165,188131,0.62%
+Milwaukee,Jun-23,1179,188131,0.63%
+Milwaukee,Jul-23,1347,188131,0.72%
+Milwaukee,Aug-23,1348,188131,0.72%
+Milwaukee,Sep-23,1096,188131,0.58%
+Milwaukee,Oct-23,1371,188131,0.73%
+Milwaukee,Nov-23,1141,188131,0.61%
+Milwaukee,Dec-23,1083,188131,0.58%
+Milwaukee,Jan-24,1293,196106,0.66%
+Milwaukee,Feb-24,1149,196106,0.59%
+Milwaukee,Mar-24,978,196106,0.50%
+Milwaukee,Apr-24,1242,196106,0.63%
+Milwaukee,May-24,1227,196106,0.63%
+Milwaukee,Jun-24,1280,196106,0.65%
+Milwaukee,Jul-24,1273,196106,0.65%
+Milwaukee,Aug-24,1254,196106,0.64%
+Milwaukee,Sep-24,861,196106,0.44%
+Milwaukee,Oct-24,947,196106,0.48%
+Milwaukee,Nov-24,673,196106,0.34%
+Milwaukee,Dec-24,708,196106,0.36%
+Milwaukee,Jan-25,857,196106,0.44%
+Milwaukee,Feb-25,654,196106,0.33%
+Milwaukee,Mar-25,664,196106,0.34%
+Milwaukee,Apr-25,1057,196106,0.54%
+Milwaukee,May-25,1079,196106,0.55%
+Milwaukee,Jun-25,1283,196106,0.65%
+Milwaukee,Jul-25,1283,196106,0.65%
+Milwaukee,Aug-25,1351,196106,0.69%
+Milwaukee,Sep-25,1254,196106,0.64%
+Milwaukee,Oct-25,936,196106,0.48%
+Milwaukee,Nov-25,797,196106,0.41%
+Milwaukee,Dec-25,775,196106,0.40%
+Minneapolis,Jan-20,702,274851,0.26%
+Minneapolis,Feb-20,536,274851,0.20%
+Minneapolis,Mar-20,299,274851,0.11%
+Minneapolis,Apr-20,23,274851,0.01%
+Minneapolis,May-20,17,274851,0.01%
+Minneapolis,Jun-20,32,274851,0.01%
+Minneapolis,Jul-20,36,274851,0.01%
+Minneapolis,Aug-20,41,274851,0.01%
+Minneapolis,Sep-20,46,274851,0.02%
+Minneapolis,Oct-20,61,274851,0.02%
+Minneapolis,Nov-20,75,274851,0.03%
+Minneapolis,Dec-20,61,274851,0.02%
+Minneapolis,Jan-21,69,274851,0.03%
+Minneapolis,Feb-21,68,274851,0.02%
+Minneapolis,Mar-21,77,274851,0.03%
+Minneapolis,Apr-21,75,274851,0.03%
+Minneapolis,May-21,66,274851,0.02%
+Minneapolis,Jun-21,66,274851,0.02%
+Minneapolis,Jul-21,178,274851,0.06%
+Minneapolis,Aug-21,247,274851,0.09%
+Minneapolis,Sep-21,306,274851,0.11%
+Minneapolis,Oct-21,386,274851,0.14%
+Minneapolis,Nov-21,320,274851,0.12%
+Minneapolis,Dec-21,408,274851,0.15%
+Minneapolis,Jan-22,398,290434,0.14%
+Minneapolis,Feb-22,536,290434,0.18%
+Minneapolis,Mar-22,774,290434,0.27%
+Minneapolis,Apr-22,973,290434,0.34%
+Minneapolis,May-22,897,290434,0.31%
+Minneapolis,Jun-22,1455,290434,0.50%
+Minneapolis,Jul-22,1335,290434,0.46%
+Minneapolis,Aug-22,1177,290434,0.41%
+Minneapolis,Sep-22,1006,290434,0.35%
+Minneapolis,Oct-22,1071,290434,0.37%
+Minneapolis,Nov-22,903,290434,0.31%
+Minneapolis,Dec-22,1183,290434,0.41%
+Minneapolis,Jan-23,1310,300194,0.44%
+Minneapolis,Feb-23,1270,300194,0.42%
+Minneapolis,Mar-23,1298,300194,0.43%
+Minneapolis,Apr-23,1090,300194,0.36%
+Minneapolis,May-23,1361,300194,0.45%
+Minneapolis,Jun-23,1192,300194,0.40%
+Minneapolis,Jul-23,1131,300194,0.38%
+Minneapolis,Aug-23,1192,300194,0.40%
+Minneapolis,Sep-23,1097,300194,0.37%
+Minneapolis,Oct-23,1183,300194,0.39%
+Minneapolis,Nov-23,895,300194,0.30%
+Minneapolis,Dec-23,1166,300194,0.39%
+Minneapolis,Jan-24,591,306126,0.19%
+Minneapolis,Feb-24,979,306126,0.32%
+Minneapolis,Mar-24,1040,306126,0.34%
+Minneapolis,Apr-24,853,306126,0.28%
+Minneapolis,May-24,1022,306126,0.33%
+Minneapolis,Jun-24,827,306126,0.27%
+Minneapolis,Jul-24,1045,306126,0.34%
+Minneapolis,Aug-24,1110,306126,0.36%
+Minneapolis,Sep-24,1120,306126,0.37%
+Minneapolis,Oct-24,1054,306126,0.34%
+Minneapolis,Nov-24,1132,306126,0.37%
+Minneapolis,Dec-24,1292,306126,0.42%
+Minneapolis,Jan-25,1355,306126,0.44%
+Minneapolis,Feb-25,1213,306126,0.40%
+Minneapolis,Mar-25,835,306126,0.27%
+Minneapolis,Apr-25,933,306126,0.30%
+Minneapolis,May-25,884,306126,0.29%
+Minneapolis,Jun-25,905,306126,0.30%
+Minneapolis,Jul-25,1309,306126,0.43%
+Minneapolis,Aug-25,1027,306126,0.34%
+Minneapolis,Sep-25,1206,306126,0.39%
+Minneapolis,Oct-25,1281,306126,0.42%
+Minneapolis,Nov-25,1208,306126,0.39%
+Minneapolis,Dec-25,1221,306126,0.40%
+Nashville,Jan-20,1144,146398,0.78%
+Nashville,Feb-20,930,146398,0.64%
+Nashville,Mar-20,613,146398,0.42%
+Nashville,Apr-20,108,146398,0.07%
+Nashville,May-20,132,146398,0.09%
+Nashville,Jun-20,351,146398,0.24%
+Nashville,Jul-20,234,146398,0.16%
+Nashville,Aug-20,319,146398,0.22%
+Nashville,Sep-20,643,146398,0.44%
+Nashville,Oct-20,569,146398,0.39%
+Nashville,Nov-20,409,146398,0.28%
+Nashville,Dec-20,705,146398,0.48%
+Nashville,Jan-21,616,146398,0.42%
+Nashville,Feb-21,420,146398,0.29%
+Nashville,Mar-21,569,146398,0.39%
+Nashville,Apr-21,411,146398,0.28%
+Nashville,May-21,420,146398,0.29%
+Nashville,Jun-21,669,146398,0.46%
+Nashville,Jul-21,628,146398,0.43%
+Nashville,Aug-21,667,146398,0.46%
+Nashville,Sep-21,719,146398,0.49%
+Nashville,Oct-21,705,146398,0.48%
+Nashville,Nov-21,641,146398,0.44%
+Nashville,Dec-21,740,146398,0.51%
+Nashville,Jan-22,756,155552,0.49%
+Nashville,Feb-22,1090,155552,0.70%
+Nashville,Mar-22,1001,155552,0.64%
+Nashville,Apr-22,775,155552,0.50%
+Nashville,May-22,851,155552,0.55%
+Nashville,Jun-22,868,155552,0.56%
+Nashville,Jul-22,1065,155552,0.68%
+Nashville,Aug-22,1212,155552,0.78%
+Nashville,Sep-22,1118,155552,0.72%
+Nashville,Oct-22,1077,155552,0.69%
+Nashville,Nov-22,826,155552,0.53%
+Nashville,Dec-22,1153,155552,0.74%
+Nashville,Jan-23,1308,161248,0.81%
+Nashville,Feb-23,1005,161248,0.62%
+Nashville,Mar-23,1058,161248,0.66%
+Nashville,Apr-23,1020,161248,0.63%
+Nashville,May-23,1283,161248,0.80%
+Nashville,Jun-23,1099,161248,0.68%
+Nashville,Jul-23,1154,161248,0.72%
+Nashville,Aug-23,1225,161248,0.76%
+Nashville,Sep-23,1152,161248,0.71%
+Nashville,Oct-23,1172,161248,0.73%
+Nashville,Nov-23,1169,161248,0.72%
+Nashville,Dec-23,1001,161248,0.62%
+Nashville,Jan-24,1307,163743,0.80%
+Nashville,Feb-24,1480,163743,0.90%
+Nashville,Mar-24,942,163743,0.58%
+Nashville,Apr-24,1022,163743,0.62%
+Nashville,May-24,1111,163743,0.68%
+Nashville,Jun-24,1200,163743,0.73%
+Nashville,Jul-24,1211,163743,0.74%
+Nashville,Aug-24,1274,163743,0.78%
+Nashville,Sep-24,1078,163743,0.66%
+Nashville,Oct-24,1383,163743,0.84%
+Nashville,Nov-24,1163,163743,0.71%
+Nashville,Dec-24,1235,163743,0.75%
+Nashville,Jan-25,1332,163743,0.81%
+Nashville,Feb-25,1205,163743,0.74%
+Nashville,Mar-25,1479,163743,0.90%
+Nashville,Apr-25,997,163743,0.61%
+Nashville,May-25,1213,163743,0.74%
+Nashville,Jun-25,1156,163743,0.71%
+Nashville,Jul-25,1364,163743,0.83%
+Nashville,Aug-25,1201,163743,0.73%
+Nashville,Sep-25,1181,163743,0.72%
+Nashville,Oct-25,1282,163743,0.78%
+Nashville,Nov-25,1046,163743,0.64%
+Nashville,Dec-25,1160,163743,0.71%
+New York,Jan-20,14536,2177959,0.67%
+New York,Feb-20,13307,2177959,0.61%
+New York,Mar-20,9055,2177959,0.42%
+New York,Apr-20,5,2177959,0.00%
+New York,May-20,4,2177959,0.00%
+New York,Jun-20,10,2177959,0.00%
+New York,Jul-20,1904,2177959,0.09%
+New York,Aug-20,5742,2177959,0.26%
+New York,Sep-20,7153,2177959,0.33%
+New York,Oct-20,8126,2177959,0.37%
+New York,Nov-20,7524,2177959,0.35%
+New York,Dec-20,7645,2177959,0.35%
+New York,Jan-21,442,2177959,0.02%
+New York,Feb-21,1370,2177959,0.06%
+New York,Mar-21,3405,2177959,0.16%
+New York,Apr-21,4946,2177959,0.23%
+New York,May-21,5178,2177959,0.24%
+New York,Jun-21,5026,2177959,0.23%
+New York,Jul-21,3980,2177959,0.18%
+New York,Aug-21,4298,2177959,0.20%
+New York,Sep-21,2327,2177959,0.11%
+New York,Oct-21,3330,2177959,0.15%
+New York,Nov-21,3824,2177959,0.18%
+New York,Dec-21,3983,2177959,0.18%
+New York,Jan-22,5505,2271037,0.24%
+New York,Feb-22,6398,2271037,0.28%
+New York,Mar-22,9029,2271037,0.40%
+New York,Apr-22,8992,2271037,0.40%
+New York,May-22,9390,2271037,0.41%
+New York,Jun-22,9596,2271037,0.42%
+New York,Jul-22,9806,2271037,0.43%
+New York,Aug-22,9235,2271037,0.41%
+New York,Sep-22,10117,2271037,0.45%
+New York,Oct-22,9610,2271037,0.42%
+New York,Nov-22,9949,2271037,0.44%
+New York,Dec-22,10514,2271037,0.46%
+New York,Jan-23,11696,2291001,0.51%
+New York,Feb-23,9434,2291001,0.41%
+New York,Mar-23,12552,2291001,0.55%
+New York,Apr-23,10800,2291001,0.47%
+New York,May-23,11394,2291001,0.50%
+New York,Jun-23,11756,2291001,0.51%
+New York,Jul-23,10725,2291001,0.47%
+New York,Aug-23,12213,2291001,0.53%
+New York,Sep-23,10022,2291001,0.44%
+New York,Oct-23,10952,2291001,0.48%
+New York,Nov-23,10460,2291001,0.46%
+New York,Dec-23,10466,2291001,0.46%
+New York,Jan-24,10355,2275300,0.46%
+New York,Feb-24,9928,2275300,0.44%
+New York,Mar-24,10926,2275300,0.48%
+New York,Apr-24,10143,2275300,0.45%
+New York,May-24,10350,2275300,0.45%
+New York,Jun-24,9619,2275300,0.42%
+New York,Jul-24,10143,2275300,0.45%
+New York,Aug-24,9983,2275300,0.44%
+New York,Sep-24,9765,2275300,0.43%
+New York,Oct-24,9996,2275300,0.44%
+New York,Nov-24,9029,2275300,0.40%
+New York,Dec-24,9577,2275300,0.42%
+New York,Jan-25,9907,2275300,0.44%
+New York,Feb-25,9035,2275300,0.40%
+New York,Mar-25,9605,2275300,0.42%
+New York,Apr-25,10250,2275300,0.45%
+New York,May-25,9083,2275300,0.40%
+New York,Jun-25,8892,2275300,0.39%
+New York,Jul-25,10210,2275300,0.45%
+New York,Aug-25,9435,2275300,0.41%
+New York,Sep-25,9426,2275300,0.41%
+New York,Oct-25,10348,2275300,0.45%
+New York,Nov-25,8518,2275300,0.37%
+New York,Dec-25,10119,2275300,0.44%
+Philadelphia,Jan-20,2015,311986,0.65%
+Philadelphia,Feb-20,1720,311986,0.55%
+Philadelphia,Mar-20,813,311986,0.26%
+Philadelphia,Apr-20,0,311986,0.00%
+Philadelphia,May-20,0,311986,0.00%
+Philadelphia,Jun-20,0,311986,0.00%
+Philadelphia,Jul-20,198,311986,0.06%
+Philadelphia,Aug-20,176,311986,0.06%
+Philadelphia,Sep-20,701,311986,0.22%
+Philadelphia,Oct-20,792,311986,0.25%
+Philadelphia,Nov-20,583,311986,0.19%
+Philadelphia,Dec-20,508,311986,0.16%
+Philadelphia,Jan-21,559,311986,0.18%
+Philadelphia,Feb-21,665,311986,0.21%
+Philadelphia,Mar-21,677,311986,0.22%
+Philadelphia,Apr-21,187,311986,0.06%
+Philadelphia,May-21,173,311986,0.06%
+Philadelphia,Jun-21,320,311986,0.10%
+Philadelphia,Jul-21,444,311986,0.14%
+Philadelphia,Aug-21,494,311986,0.16%
+Philadelphia,Sep-21,540,311986,0.17%
+Philadelphia,Oct-21,756,311986,0.24%
+Philadelphia,Nov-21,909,311986,0.29%
+Philadelphia,Dec-21,1031,311986,0.33%
+Philadelphia,Jan-22,1044,341785,0.31%
+Philadelphia,Feb-22,562,341785,0.16%
+Philadelphia,Mar-22,968,341785,0.28%
+Philadelphia,Apr-22,902,341785,0.26%
+Philadelphia,May-22,1168,341785,0.34%
+Philadelphia,Jun-22,1246,341785,0.36%
+Philadelphia,Jul-22,1126,341785,0.33%
+Philadelphia,Aug-22,1768,341785,0.52%
+Philadelphia,Sep-22,1631,341785,0.48%
+Philadelphia,Oct-22,1299,341785,0.38%
+Philadelphia,Nov-22,1211,341785,0.35%
+Philadelphia,Dec-22,1366,341785,0.40%
+Philadelphia,Jan-23,1397,331415,0.42%
+Philadelphia,Feb-23,1182,331415,0.36%
+Philadelphia,Mar-23,1354,331415,0.41%
+Philadelphia,Apr-23,892,331415,0.27%
+Philadelphia,May-23,1092,331415,0.33%
+Philadelphia,Jun-23,1103,331415,0.33%
+Philadelphia,Jul-23,1051,331415,0.32%
+Philadelphia,Aug-23,1207,331415,0.36%
+Philadelphia,Sep-23,853,331415,0.26%
+Philadelphia,Oct-23,1084,331415,0.33%
+Philadelphia,Nov-23,975,331415,0.29%
+Philadelphia,Dec-23,970,331415,0.29%
+Philadelphia,Jan-24,1192,338178,0.35%
+Philadelphia,Feb-24,1205,338178,0.36%
+Philadelphia,Mar-24,931,338178,0.28%
+Philadelphia,Apr-24,958,338178,0.28%
+Philadelphia,May-24,1038,338178,0.31%
+Philadelphia,Jun-24,962,338178,0.28%
+Philadelphia,Jul-24,1140,338178,0.34%
+Philadelphia,Aug-24,1079,338178,0.32%
+Philadelphia,Sep-24,1178,338178,0.35%
+Philadelphia,Oct-24,1233,338178,0.36%
+Philadelphia,Nov-24,1083,338178,0.32%
+Philadelphia,Dec-24,1250,338178,0.37%
+Philadelphia,Jan-25,1236,338178,0.37%
+Philadelphia,Feb-25,1057,338178,0.31%
+Philadelphia,Mar-25,1140,338178,0.34%
+Philadelphia,Apr-25,917,338178,0.27%
+Philadelphia,May-25,1107,338178,0.33%
+Philadelphia,Jun-25,1219,338178,0.36%
+Philadelphia,Jul-25,1222,338178,0.36%
+Philadelphia,Aug-25,965,338178,0.29%
+Philadelphia,Sep-25,1078,338178,0.32%
+Philadelphia,Oct-25,1226,338178,0.36%
+Philadelphia,Nov-25,956,338178,0.28%
+Philadelphia,Dec-25,1280,338178,0.38%
+Phoenix,Jan-20,5850,583611,1.00%
+Phoenix,Feb-20,5615,583611,0.96%
+Phoenix,Mar-20,3859,583611,0.66%
+Phoenix,Apr-20,1764,583611,0.30%
+Phoenix,May-20,1458,583611,0.25%
+Phoenix,Jun-20,1603,583611,0.27%
+Phoenix,Jul-20,1754,583611,0.30%
+Phoenix,Aug-20,2164,583611,0.37%
+Phoenix,Sep-20,2857,583611,0.49%
+Phoenix,Oct-20,3374,583611,0.58%
+Phoenix,Nov-20,3164,583611,0.54%
+Phoenix,Dec-20,4206,583611,0.72%
+Phoenix,Jan-21,3237,583611,0.55%
+Phoenix,Feb-21,3141,583611,0.54%
+Phoenix,Mar-21,3242,583611,0.56%
+Phoenix,Apr-21,2469,583611,0.42%
+Phoenix,May-21,2610,583611,0.45%
+Phoenix,Jun-21,2972,583611,0.51%
+Phoenix,Jul-21,3616,583611,0.62%
+Phoenix,Aug-21,2980,583611,0.51%
+Phoenix,Sep-21,4251,583611,0.73%
+Phoenix,Oct-21,4654,583611,0.80%
+Phoenix,Nov-21,3801,583611,0.65%
+Phoenix,Dec-21,4393,583611,0.75%
+Phoenix,Jan-22,5200,600091,0.87%
+Phoenix,Feb-22,4496,600091,0.75%
+Phoenix,Mar-22,4674,600091,0.78%
+Phoenix,Apr-22,4189,600091,0.70%
+Phoenix,May-22,4820,600091,0.80%
+Phoenix,Jun-22,5771,600091,0.96%
+Phoenix,Jul-22,6383,600091,1.06%
+Phoenix,Aug-22,6552,600091,1.09%
+Phoenix,Sep-22,6110,600091,1.02%
+Phoenix,Oct-22,5215,600091,0.87%
+Phoenix,Nov-22,4935,600091,0.82%
+Phoenix,Dec-22,5236,600091,0.87%
+Phoenix,Jan-23,7019,606114,1.16%
+Phoenix,Feb-23,5803,606114,0.96%
+Phoenix,Mar-23,5776,606114,0.95%
+Phoenix,Apr-23,6318,606114,1.04%
+Phoenix,May-23,6878,606114,1.13%
+Phoenix,Jun-23,6949,606114,1.15%
+Phoenix,Jul-23,7086,606114,1.17%
+Phoenix,Aug-23,7674,606114,1.27%
+Phoenix,Sep-23,7791,606114,1.29%
+Phoenix,Oct-23,7924,606114,1.31%
+Phoenix,Nov-23,6628,606114,1.09%
+Phoenix,Dec-23,7061,606114,1.16%
+Phoenix,Jan-24,7996,629455,1.27%
+Phoenix,Feb-24,6872,629455,1.09%
+Phoenix,Mar-24,6186,629455,0.98%
+Phoenix,Apr-24,6771,629455,1.08%
+Phoenix,May-24,7071,629455,1.12%
+Phoenix,Jun-24,7213,629455,1.15%
+Phoenix,Jul-24,7889,629455,1.25%
+Phoenix,Aug-24,7935,629455,1.26%
+Phoenix,Sep-24,7521,629455,1.19%
+Phoenix,Oct-24,7669,629455,1.22%
+Phoenix,Nov-24,6495,629455,1.03%
+Phoenix,Dec-24,7328,629455,1.16%
+Phoenix,Jan-25,7591,629455,1.21%
+Phoenix,Feb-25,7059,629455,1.12%
+Phoenix,Mar-25,5974,629455,0.95%
+Phoenix,Apr-25,6316,629455,1.00%
+Phoenix,May-25,7064,629455,1.12%
+Phoenix,Jun-25,7015,629455,1.11%
+Phoenix,Jul-25,7242,629455,1.15%
+Phoenix,Aug-25,7542,629455,1.20%
+Phoenix,Sep-25,7293,629455,1.16%
+Phoenix,Oct-25,7569,629455,1.20%
+Phoenix,Nov-25,6833,629455,1.09%
+Phoenix,Dec-25,7104,629455,1.13%

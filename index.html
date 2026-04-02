@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eviction Filing Rate by City</title>
+    <link rel="icon" href="data:," />
+    <style>
+      @font-face {
+        font-family: "DINPro-Bold";
+        src: url("./DINPro-Bold.otf") format("opentype");
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "DINPro-Medium";
+        src: url("./DINPro-Medium.otf") format("opentype");
+        font-display: swap;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        font-family: "DINPro-Medium", sans-serif;
+      }
+
+    #container {
+      width: 100%;
+      height: 100vh;
+      min-height: 480px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <script>
+      const monthMap = {
+        Jan: 0,
+        Feb: 1,
+        Mar: 2,
+        Apr: 3,
+        May: 4,
+        Jun: 5,
+        Jul: 6,
+        Aug: 7,
+        Sep: 8,
+        Oct: 9,
+        Nov: 10,
+        Dec: 11,
+      };
+
+      function parseMonthYear(value) {
+        const [month, year] = value.trim().split("-");
+        const yy = Number(year);
+        return new Date(2000 + yy, monthMap[month], 1).getTime();
+      }
+
+      function parseRate(rateText) {
+        return Number(String(rateText).replace("%", "").trim());
+      }
+
+      function parseCsv(text) {
+        const lines = text.trim().split(/\r?\n/);
+        const header = lines[0].replace(/^\uFEFF/, "").split(",");
+        const cityIdx = header.indexOf("city");
+        const monthYearIdx = header.indexOf("month-year");
+        const filingRateIdx = header.indexOf("filing_rate");
+
+        const rows = [];
+        for (let i = 1; i < lines.length; i += 1) {
+          const cols = lines[i].split(",");
+          if (cols.length <= filingRateIdx) {
+            continue;
+          }
+          rows.push({
+            city: cols[cityIdx],
+            monthYear: cols[monthYearIdx],
+            filingRate: parseRate(cols[filingRateIdx]),
+          });
+        }
+        return rows;
+      }
+
+      function loadScript(src) {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = src;
+          script.async = true;
+          script.onload = resolve;
+          script.onerror = reject;
+          document.head.appendChild(script);
+        });
+      }
+
+      function lightenHex(hex, amount) {
+        const raw = hex.replace("#", "");
+        const value = Number.parseInt(raw, 16);
+        const r = (value >> 16) & 0xff;
+        const g = (value >> 8) & 0xff;
+        const b = value & 0xff;
+
+        const nextR = Math.round(r + (255 - r) * amount);
+        const nextG = Math.round(g + (255 - g) * amount);
+        const nextB = Math.round(b + (255 - b) * amount);
+
+        return `#${[nextR, nextG, nextB]
+          .map((channel) => channel.toString(16).padStart(2, "0"))
+          .join("")}`;
+      }
+
+      async function ensureHighchartsLoaded() {
+        if (window.Highcharts) {
+          return;
+        }
+
+        const sources = [
+          "https://code.highcharts.com/highcharts.js",
+          "https://cdn.jsdelivr.net/npm/highcharts@12.2.0/highcharts.js",
+          "https://unpkg.com/highcharts@12.2.0/highcharts.js",
+          "./highcharts.js",
+        ];
+
+        for (const src of sources) {
+          try {
+            await loadScript(src);
+            if (window.Highcharts) {
+              return;
+            }
+          } catch (error) {
+            // Try next source.
+          }
+        }
+
+        throw new Error("Unable to load Highcharts from configured sources.");
+      }
+
+      async function ensureSeriesLabelLoaded() {
+        const sources = [
+          "https://code.highcharts.com/modules/series-label.js",
+          "https://cdn.jsdelivr.net/npm/highcharts@12.2.0/modules/series-label.js",
+          "https://unpkg.com/highcharts@12.2.0/modules/series-label.js",
+          "./series-label.js",
+        ];
+
+        for (const src of sources) {
+          try {
+            await loadScript(src);
+            return;
+          } catch (error) {
+            // Try next source.
+          }
+        }
+      }
+
+      async function renderChart() {
+        await ensureHighchartsLoaded();
+        await ensureSeriesLabelLoaded();
+
+        const response = await fetch("./source-data.csv");
+        if (!response.ok) {
+          throw new Error("Unable to load source-data.csv");
+        }
+
+        const csvText = await response.text();
+        const rows = parseCsv(csvText);
+
+        const monthYearLabels = Array.from(
+          new Set(rows.map((row) => row.monthYear)),
+        );
+        monthYearLabels.sort((a, b) => parseMonthYear(a) - parseMonthYear(b));
+
+        const cityToRates = new Map();
+        rows.forEach((row) => {
+          if (!cityToRates.has(row.city)) {
+            cityToRates.set(row.city, new Map());
+          }
+          cityToRates.get(row.city).set(row.monthYear, row.filingRate);
+        });
+
+        const cityNames = Array.from(cityToRates.keys()).sort((a, b) =>
+          a.localeCompare(b),
+        );
+        const cityColors = {
+          Atlanta: "#FDB713",
+          Milwaukee: "#58585A",
+        };
+        const palette = [
+          "#ee575d",
+          "#636ea0",
+          "#1270b3",
+          "#42add3",
+          "#1aafa6",
+          "#678539",
+          "#99ae3e",
+        ];
+        const lighterRed = lightenHex("#ee575d", 0.35);
+        const remainingCities = cityNames.filter(
+          (city) => city !== "Atlanta" && city !== "Milwaukee",
+        );
+        remainingCities.forEach((city, index) => {
+          cityColors[city] = index < palette.length ? palette[index] : lighterRed;
+        });
+
+        const series = Array.from(cityToRates.entries())
+          .sort((a, b) => a[0].localeCompare(b[0]))
+          .map(([city, monthToRate]) => ({
+            name: city,
+            color: cityColors[city],
+            lineWidth: city === "Atlanta" ? 4 : 2,
+            data: monthYearLabels.map((label) =>
+              monthToRate.has(label) ? monthToRate.get(label) : null,
+            ),
+          }));
+
+        Highcharts.chart("container", {
+          chart: {
+            type: "line",
+            backgroundColor: "#f9f9f9",
+            spacingBottom: 44,
+            style: {
+              fontFamily: "DINPro-Medium, sans-serif",
+            },
+          },
+          title: {
+            text: "Eviction Filing Rate by City",
+            align: "center",
+            style: {
+              fontFamily: "DINPro-Bold, sans-serif",
+              fontSize: "24px",
+            },
+          },
+          subtitle: {
+            text: "",
+            align: "left",
+            style: {
+              fontFamily: "DINPro-Medium, sans-serif",
+            },
+          },
+          xAxis: {
+            categories: monthYearLabels,
+            tickmarkPlacement: "on",
+            labels: {
+              style: {
+                fontFamily: "DINPro-Medium, sans-serif",
+              },
+            },
+          },
+          yAxis: {
+            title: {
+              text: null,
+              style: {
+                fontFamily: "DINPro-Medium, sans-serif",
+              },
+            },
+            labels: {
+              format: "{value:.2f}%",
+              style: {
+                fontFamily: "DINPro-Medium, sans-serif",
+              },
+            },
+          },
+          legend: {
+            layout: "horizontal",
+            align: "center",
+            verticalAlign: "bottom",
+            itemStyle: {
+              fontFamily: "DINPro-Medium, sans-serif",
+            },
+          },
+          tooltip: {
+            valueSuffix: "%",
+            valueDecimals: 2,
+            shared: false,
+            followPointer: false,
+            style: {
+              fontFamily: "DINPro-Medium, sans-serif",
+            },
+          },
+          plotOptions: {
+            series: {
+              stickyTracking: false,
+              findNearestPointBy: "xy",
+              marker: {
+                enabled: false,
+              },
+              label: {
+                enabled: true,
+                connectorAllowed: false,
+                style: {
+                  fontFamily: "DINPro-Medium, sans-serif",
+                  textOutline: "none",
+                  fontSize: "12px",
+                },
+              },
+              states: {
+                hover: {
+                  lineWidthPlus: 1,
+                },
+                inactive: {
+                  opacity: 0.2,
+                },
+              },
+            },
+          },
+          credits: {
+            enabled: true,
+            href: null,
+            text: "Source: Eviction Labs and American Community Survey 2024 1-Year Estimate.",
+            position: {
+              align: "left",
+              x: 10,
+              y: 0,
+            },
+            style: {
+              cursor: "default",
+              fontFamily: "DINPro-Medium, sans-serif",
+              fontSize: "11px",
+            },
+          },
+          series,
+          responsive: {
+            rules: [
+              {
+                condition: {
+                  maxWidth: 700,
+                },
+                chartOptions: {
+                  legend: {
+                    layout: "horizontal",
+                    align: "center",
+                    verticalAlign: "bottom",
+                  },
+                },
+              },
+            ],
+          },
+        });
+      }
+
+      renderChart().catch((error) => {
+        const container = document.getElementById("container");
+        container.innerHTML =
+          "<p style='padding: 1rem; font-family: DINPro-Medium, sans-serif;'>Failed to load chart assets or data. Check console for details.</p>";
+        console.error(error);
+      });
+    </script>
+  </body>
+</html>

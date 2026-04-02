@@ -1,0 +1,21 @@
+GEOID,county_fips,county_name,metro,tenure_total,tenure_owner_occupied,tenure_renter_occupied
+13063-county,63,Clayton County,Atlanta,106914,56092,50822
+13067-county,67,Cobb County,Atlanta,299074,201365,97709
+13089-county,89,DeKalb County,Atlanta,291423,177122,114301
+13121-county,121,Fulton County,Atlanta,458812,256837,201975
+13135-county,135,Gwinnett County,Atlanta,330254,222382,107872
+39061-county,61,Hamilton County,Cincinnati,360340,209225,151115
+48167-county,167,Galveston County,Houston,142199,96862,45337
+48201-county,201,Harris County,Houston,1791013,988178,802835
+12031-county,31,Duval County,Jacksonville,428020,250755,177265
+55079-county,79,Milwaukee County,Milwaukee,388165,200034,188131
+27053-county,53,Hennepin County,Minneapolis,545627,337658,207969
+27123-county,123,Ramsey County,Minneapolis,225183,132958,92225
+47037-county,37,Davidson County,Nashville,341597,180349,161248
+36005-county,5,Bronx County,New York,537953,107907,430046
+36047-county,47,Kings County,New York,1035549,297305,738244
+36061-county,61,New York County,New York,787747,200348,587399
+36081-county,81,Queens County,New York,863975,385206,478769
+36085-county,85,Richmond County,New York,169526,112983,56543
+42101-county,101,Philadelphia County,Philadelphia,688112,356697,331415
+04013-county,13,Maricopa County,Phoenix,1753589,1147475,606114
